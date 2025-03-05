@@ -1,4 +1,5 @@
-House Price Prediction - AI/ML Project
+<b>House Price Prediction - AI/ML Project<b>
+
 This project involves building a machine learning model to predict house prices based on various features. The dataset is sourced from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a highly accurate predictive model using advanced regression techniques.
 
 📌 Kaggle Competition
