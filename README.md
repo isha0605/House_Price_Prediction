@@ -1,50 +1,65 @@
-# House Price Prediction AI/ML Project
+House Price Prediction - AI/ML Project
+This project involves building a machine learning model to predict house prices based on various features. The dataset is sourced from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a highly accurate predictive model using advanced regression techniques.
 
-This project involves building a machine learning model to predict house prices based on various features. The dataset used for this project is from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a model that accurately predicts house prices given a set of input features.
+📌 Kaggle Competition
+Dataset: House Prices - Advanced Regression Techniques
 
-## Kaggle Competition
-- Dataset: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-- Model Score: 87.16% (R-squared score)
+Model Performance: 87.16% (R-squared score)
+📌 Libraries Used
+Python Libraries:
 
-## File Structure
-- `house_price_prediction.ipynb`: Jupyter Notebook containing the code for data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and prediction.
-- `submission.csv`: CSV file containing the predicted house prices for the test dataset.
-- `gbr.pkl`: Pickle file containing the trained GradientBoostingRegressor model.
+NumPy
 
-## Libraries Used
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- XGBoost
+Pandas
 
-## Data Loading and Analysis
-- The training and test datasets are loaded from CSV files.
-- Exploratory data analysis is performed to understand the structure and characteristics of the data.
-- Data visualization techniques such as histograms, box plots, and heatmaps are used to analyze the distribution of features and identify missing values.
+Matplotlib
 
-## Data Preprocessing
-- Missing values are handled using appropriate techniques such as imputation or dropping columns.
-- Categorical variables are encoded using one-hot encoding.
-- Numerical features are standardized to ensure uniformity and improve model performance.
+Seaborn
 
-## Model Selection and Training
-- Several regression models are considered, including Linear Regression, SVR, SGDRegressor, KNeighborsRegressor, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, XGBRegressor, and MLPRegressor.
-- Cross-validation is used to evaluate each model's performance based on the R-squared score.
-- The GradientBoostingRegressor model is selected based on its superior performance.
+Scikit-learn
 
-## Model Evaluation and Prediction
-- The selected model is trained on the training dataset.
-- The trained model is used to make predictions on the test dataset.
-- The predictions are saved to a CSV file (`submission.csv`) for submission.
+XGBoost
 
+📝 Data Analysis and Preprocessing
+Loading Data:
 
-## Additional Notes
-- The `submission.csv` file contains the predicted house prices for the test dataset.
-- The trained model (`gbr.pkl`) is stored as a pickle file for future use or deployment.
+The dataset is loaded from CSV files.
 
-For any further inquiries or improvements, feel free to reach out.
+Exploratory Data Analysis (EDA):
 
-### Connect me:
-[Linkedin](https://www.linkedin.com/in/nirdesh-devadiya-55b408209)
+Visualizations (histograms, box plots, heatmaps) help identify patterns and missing values.
+
+Preprocessing Steps:
+
+Handling missing values (imputation/dropping columns).
+
+Encoding categorical variables using one-hot encoding.
+
+Standardizing numerical features for better model performance.
+
+🤖 Model Training & Selection
+Evaluated multiple regression models:
+
+Linear Regression, SVR, SGDRegressor, KNeighborsRegressor
+
+DecisionTreeRegressor, RandomForestRegressor
+
+GradientBoostingRegressor, XGBRegressor, MLPRegressor
+
+GradientBoostingRegressor was selected based on superior performance.
+
+Cross-validation was used for model evaluation.
+
+🎯 Model Evaluation & Prediction
+The trained model is used to predict house prices on the test dataset.
+
+Predictions are saved in submission.csv.
+
+The model is stored as gbr.pkl for future use.
+
+🚀 Future Enhancements
+Hyperparameter tuning for better model accuracy.
+
+Feature selection techniques to improve model performance.
+
+Deployment of the model using Flask or FastAPI.
